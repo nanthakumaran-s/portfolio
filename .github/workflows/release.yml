@@ -1,7 +1,8 @@
 name: Releases
 on:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
 jobs:
   changelog:
