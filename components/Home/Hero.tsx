@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="text-skin-base font-patron font-normal text-2xl text-center lg:text-4xl">Nanthakumaran S</h1>
         <p className="pt-4 pb-4 text-skin-base font-patron font-black text-center text-2xl lg:text-4xl lg:mt-4">Software Developer, Cloud & DevOps Enthusiast, OpenSource Beginner.</p>
         <div className="flex items-center justify-center gap-6 mb-4 lg:mt-7">
-          <a href="#" className="px-6 py-3 bg-skin-button-muted rounded-md font-bold text-skin-footer text-md hover:opacity-90 lg:text-xl font-patron">
+          <a href="/Nanthakumaran.pdf" target="blank" className="px-6 py-3 bg-skin-button-muted rounded-md font-bold text-skin-footer text-md hover:opacity-90 lg:text-xl font-patron transition ease-in-out delay-100">
             My Resume
           </a>
         </div>
