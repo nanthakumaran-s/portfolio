@@ -27,7 +27,7 @@ jobs:
         run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
 
       # create release info and push it upstream
-      - name: conventional Changelog Action
+      - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
