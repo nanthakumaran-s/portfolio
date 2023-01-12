@@ -19,8 +19,6 @@ jobs:
           node-version: "16"
           cache: "npm"
 
-      - run: npm ci
-
       - name: Prettier
         run: npx prettier --write data/*.json
         env:
