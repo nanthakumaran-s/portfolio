@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { Dispatch, SetStateAction } from 'react';
+import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { navLinks, navLinksType } from '../data/navLinks';
 import { TbBrandGithub } from 'react-icons/tb';
@@ -10,11 +10,27 @@ interface Props {
 }
 
 const Nav = ({ show, setShowNav }: Props) => {
+  const [navbar, setNavbar] = useState(false)
+
+  useEffect(() => {
+    function handleScroll() {
+      if (typeof window !== 'undefined') {
+        if (window.scrollY >= 66) {
+          setNavbar(true)
+        } else {
+          setNavbar(false)
+        }
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [])
+
   return (
     <div
-      className={`w-full flex items-center justify-between px-7 py-6 ${
-        show ? 'hidden' : 'fixed'
-      } z-10`}
+      className={`w-full flex items-center justify-between px-7 py-6 ${show ? 'hidden' : 'fixed'
+        } z-10 ${navbar ? 'bg-white' : ''}`}
     >
       <a href="#">
         <img src="/images/logo.png" alt="logo" className="w-6 h-8 lg:w-8 lg:h-11" />

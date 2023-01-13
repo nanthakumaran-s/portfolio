@@ -13,9 +13,9 @@ export default function Home() {
     <Layout>
       <Nav show={showNav} setShowNav={setShowNav} />
       {showNav && <MobileNav setShowNav={setShowNav} />}
-      {!showNav && <Hero />}
-      {!showNav && <Skills />}
-      {!showNav && <Contact />}
+      <Hero />
+      <Skills />
+      <Contact />
     </Layout>
   );
 }
