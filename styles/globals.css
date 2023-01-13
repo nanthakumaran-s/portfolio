@@ -19,27 +19,27 @@
   }
 
   @font-face {
-    font-family: "Patron";
+    font-family: 'Patron';
     font-weight: 400;
     src: url('/fonts/Patron-Regular.woff2') format('woff2');
   }
   @font-face {
-    font-family: "Patron";
+    font-family: 'Patron';
     font-weight: 500;
     src: url('/fonts/Patron-Medium.woff2') format('woff2');
   }
   @font-face {
-    font-family: "Patron";
+    font-family: 'Patron';
     font-weight: 700;
     src: url('/fonts/Patron-Bold.woff2') format('woff2');
   }
   @font-face {
-    font-family: "Patron";
+    font-family: 'Patron';
     font-weight: 900;
     src: url('/fonts/Patron-Black.woff2') format('woff2');
   }
 }
 
 .splide__pagination__page.is-active {
-  background: #685FF5 !important;
+  background: #685ff5 !important;
 }

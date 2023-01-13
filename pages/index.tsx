@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import Hero from '../components/Home/Hero'
+import { useState } from 'react';
+import Contact from '../components/Home/Contact';
+import Hero from '../components/Home/Hero';
 import Skills from '../components/Home/Skills';
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
 import MobileNav from '../components/MobileNav';
-import Nav from '../components/Nav'
+import Nav from '../components/Nav';
 
 export default function Home() {
   const [showNav, setShowNav] = useState<Boolean>(false);
@@ -14,6 +15,7 @@ export default function Home() {
       {showNav && <MobileNav setShowNav={setShowNav} />}
       {!showNav && <Hero />}
       {!showNav && <Skills />}
+      {!showNav && <Contact />}
     </Layout>
-  )
+  );
 }

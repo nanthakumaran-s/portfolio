@@ -5,14 +5,11 @@ function withOpacity(variableName) {
     } else {
       return `rgb(var(${variableName}))`;
     }
-  }
+  };
 }
 
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -21,7 +18,7 @@ module.exports = {
       textColor: {
         skin: {
           base: withOpacity('--color-text-base'),
-          footer: withOpacity('--color-text-footer'),
+          footer: withOpacity('--color-text-footer')
         }
       },
       backgroundColor: {
@@ -29,10 +26,10 @@ module.exports = {
           'fill-primary': withOpacity('--color-fill-primary'),
           'fill-secondary': withOpacity('--color-fill-secondary'),
           'fill-footer': withOpacity('--color-fill-footer'),
-          'button-muted': withOpacity('--color-button-muted'),
+          'button-muted': withOpacity('--color-button-muted')
         }
       }
-    },
+    }
   },
-  plugins: [],
-}
+  plugins: []
+};
