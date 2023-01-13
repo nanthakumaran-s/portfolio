@@ -11,7 +11,7 @@ export default function Home() {
     <Layout>
       <Nav show={showNav} setShowNav={setShowNav} />
       {showNav && <MobileNav setShowNav={setShowNav} />}
-      <Hero />
+      {!showNav && <Hero />}
     </Layout>
   )
 }
