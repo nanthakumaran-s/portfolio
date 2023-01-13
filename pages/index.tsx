@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Hero from '../components/Home/Hero'
+import Skills from '../components/Home/Skills';
 import Layout from '../components/Layout'
 import MobileNav from '../components/MobileNav';
 import Nav from '../components/Nav'
@@ -12,6 +13,7 @@ export default function Home() {
       <Nav show={showNav} setShowNav={setShowNav} />
       {showNav && <MobileNav setShowNav={setShowNav} />}
       {!showNav && <Hero />}
+      {!showNav && <Skills />}
     </Layout>
   )
 }
