@@ -1,9 +1,9 @@
-## 0.2.2 (2023-01-13)
+## 0.2.3 (2023-01-13)
 
 
 ### Bug Fixes
 
-* title for project section ([f5186b5](https://github.com/nanthakumaran-s/portfolio/commit/f5186b5d86a09bebfefc3a9b88e37a1882952372))
+* reduce icon size ([b638ed6](https://github.com/nanthakumaran-s/portfolio/commit/b638ed67e1beca1b26f44a289c524ce71a62e9d4))
 
 
 
