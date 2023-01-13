@@ -1,7 +1,7 @@
 import { TbBrandGithub, TbBrandLinkedin, TbBrandTwitter } from 'react-icons/tb';
 import { SiHashnode, SiMedium } from 'react-icons/si';
 
-const size = 35;
+const size = 30;
 const color = '#16002C';
 
 export type socialLinksType = {
