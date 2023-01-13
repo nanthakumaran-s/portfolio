@@ -12,8 +12,9 @@ interface Props {
 const Nav = ({ show, setShowNav }: Props) => {
   return (
     <div
-      className={`w-full flex items-center justify-between px-7 py-6 ${show ? 'hidden' : 'fixed'
-        } z-10 bg-white`}
+      className={`w-full flex items-center justify-between px-7 py-6 ${
+        show ? 'hidden' : 'fixed'
+      } z-10 bg-white`}
     >
       <a href="#">
         <img src="/images/logo.png" alt="logo" className="w-6 h-8 lg:w-8 lg:h-11" />
