@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Footer from '../components/Footer';
 import Contact from '../components/Home/Contact';
 import Hero from '../components/Home/Hero';
 import Skills from '../components/Home/Skills';
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <Contact />
+      <Footer />
     </Layout>
   );
 }
