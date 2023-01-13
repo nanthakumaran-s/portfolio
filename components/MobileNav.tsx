@@ -34,7 +34,7 @@ interface Prop {
 
 const MobileNav = ({ setShowNav }: Prop) => {
   return (
-    <div className="fixed bg-white inset-0 w-screen z-10 flex flex-col items-center justify-center">
+    <div className="fixed bg-white inset-0 w-screen z-30 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center gap-4 font-patron font-medium text-lg">
         {navLinks.map((link: navLinksType, index: number) => (
           <a
