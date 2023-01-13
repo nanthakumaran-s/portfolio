@@ -1,9 +1,9 @@
-## 0.0.4 (2023-01-13)
+## 0.0.5 (2023-01-13)
 
 
 ### Bug Fixes
 
-* add mobile nav for small screens ([467f21b](https://github.com/nanthakumaran-s/portfolio/commit/467f21bc4d0f88a62d96cf7f07ed85a4fc1f7c0c))
+* hide sections when mobile nav open ([569ba34](https://github.com/nanthakumaran-s/portfolio/commit/569ba3436f5108639b2347f1c79d123ea165f15d))
 
 
 
