@@ -1,9 +1,9 @@
-# 0.1.0 (2023-01-13)
+## 0.1.1 (2023-01-13)
 
 
-### Features
+### Bug Fixes
 
-* add contact section ([e7a5755](https://github.com/nanthakumaran-s/portfolio/commit/e7a575588a65aee07d8c729d8c4a92321953fc88))
+* fix nav issues ([c22d42f](https://github.com/nanthakumaran-s/portfolio/commit/c22d42f82492f30a92d4a0f14562b6eea6f3636d))
 
 
 
