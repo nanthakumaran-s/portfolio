@@ -1,9 +1,9 @@
-# 0.2.0 (2023-01-13)
+## 0.2.1 (2023-01-13)
 
 
-### Features
+### Bug Fixes
 
-* add featured project section ([43f2651](https://github.com/nanthakumaran-s/portfolio/commit/43f2651383bc3e860861426cb31d5f28267a3c2c))
+* fix project name in project data ([17f3cb7](https://github.com/nanthakumaran-s/portfolio/commit/17f3cb7067a90ee30fe4f5bbb5471da7a4791ec0))
 
 
 
