@@ -27,7 +27,7 @@ const Featured = () => {
   }, [tick, show, seconds]);
 
   return (
-    <div className="flex flex-col w-full items-center justify-center py-16 px-8 lg:px-48">
+    <div className="flex flex-col w-full items-center justify-center py-16 px-8 lg:px-24">
       <div
         className="flex flex-col lg:ml-20 bg-skin-fill-primary bg-opacity-50 w-full rounded-2xl px-5 py-6 lg:px-8 lg:py-11"
         onMouseEnter={() => setTick(false)}
