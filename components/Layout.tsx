@@ -23,27 +23,22 @@ export default function Layout({ children }: Prop) {
     <>
       <Head>
         <title>Nanthakumaran S</title>
-        <meta name="description" content="Nanthakumaran is a software developer and cloud enthusiast with a focus on DevOps and open-source technologies. He is dedicated to delivering high-quality, efficient code and staying up-to-date with the latest industry trends." />
+        <meta
+          name="description"
+          content="Nanthakumaran is a software developer and cloud enthusiast with a focus on DevOps and open-source technologies. He is dedicated to delivering high-quality, efficient code and staying up-to-date with the latest industry trends."
+        />
         <meta name="keywords" content="Nanthakumaran, developer" />
         <link rel="canonical" href="https://www.nanthakumaran.com" />
 
         {/* Viewport meta tag */}
-        <meta
-          name="viewport"
-          content="initial-scale=1.0, width=device-width"
-          key="viewport"
-        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
 
         {/* UTF - 8 meta tag */}
         <meta charSet="UTF-8" />
 
         {/* Site Favicon */}
         <link rel="icon" href="/favicon.png" type="image/x-icon" />
-        <link
-          rel="shortcut icon"
-          href="/favicon.png"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
         {/* Robots meta tag */}
         <meta name="robots" content="index, follow" />
@@ -62,17 +57,13 @@ export default function Layout({ children }: Prop) {
           itemProp="image"
         />
         <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:site_name" content="Nanthakumaran S" key="ogsitename" />
+        <meta property="og:title" content="Nanthakumaran S" key="ogtitle" />
         <meta
-          property="og:site_name"
-          content="Nanthakumaran S"
-          key="ogsitename"
+          property="og:description"
+          content="Nanthakumaran is a software developer and cloud enthusiast with a focus on DevOps and open-source technologies. He is dedicated to delivering high-quality, efficient code and staying up-to-date with the latest industry trends."
+          key="ogdesc"
         />
-        <meta
-          property="og:title"
-          content="Nanthakumaran S"
-          key="ogtitle"
-        />
-        <meta property="og:description" content="Nanthakumaran is a software developer and cloud enthusiast with a focus on DevOps and open-source technologies. He is dedicated to delivering high-quality, efficient code and staying up-to-date with the latest industry trends." key="ogdesc" />
         <meta property="og:type" content="website" />
         <meta property="og:updated_time" content="updatedtime" />
         <meta property="og:locale" content="en_GB" />
