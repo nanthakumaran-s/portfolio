@@ -1,9 +1,9 @@
-## 0.2.3 (2023-01-13)
+# 0.3.0 (2023-01-13)
 
 
-### Bug Fixes
+### Features
 
-* reduce icon size ([b638ed6](https://github.com/nanthakumaran-s/portfolio/commit/b638ed67e1beca1b26f44a289c524ce71a62e9d4))
+* add previous projects ([20e90db](https://github.com/nanthakumaran-s/portfolio/commit/20e90dbfc6e1b69610127f11ef074b95f706c083))
 
 
 
