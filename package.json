@@ -10,6 +10,7 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@splidejs/react-splide": "^0.7.12",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
