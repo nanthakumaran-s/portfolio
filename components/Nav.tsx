@@ -1,12 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { navLinks, navLinksType } from '../data/navLinks'
 import { TbBrandGithub } from 'react-icons/tb'
 
-const Nav = () => {
+interface Props {
+    show: Boolean;
+    setShowNav: Dispatch<SetStateAction<Boolean>>;
+}
+
+const Nav = ({ show, setShowNav }: Props) => {
   return (
-    <div className="w-full flex items-center justify-between px-7 py-6 fixed">
+    <div className={`w-full flex items-center justify-between px-7 py-6 ${show ? 'hidden' : 'fixed'}`}>
         <a href="#">
             <img src="/images/logo.png" alt="logo" className="w-6 h-8 lg:w-8 lg:h-11"/>
         </a>
@@ -19,7 +24,7 @@ const Nav = () => {
                 </div>
             </a>
         </div>
-        <RxHamburgerMenu className="lg:hidden stroke-1" size={30} color="#16002C" />
+        <RxHamburgerMenu className="lg:hidden stroke-1 cursor-pointer" size={30} color="#16002C" onClick={() => setShowNav(true)} />
     </div>
   )
 }

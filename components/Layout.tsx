@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ReactNode } from "react";
 import { blogLinks, socialLinks, socialLinksType } from "../data/socialLinks";
 
 const IconComponent = ({ link }: { link: socialLinksType }) => {
@@ -9,7 +10,11 @@ const IconComponent = ({ link }: { link: socialLinksType }) => {
     );
 }
 
-export default function Layout ({ children }: any) {
+interface Prop {
+    children: ReactNode
+}
+
+export default function Layout ({ children }: Prop) {
     return (
         <>
             <Head>
@@ -17,7 +22,7 @@ export default function Layout ({ children }: any) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
-            <div className="flex">
+            <div className="flex overflow-hidden ">
                 <div className="hidden h-screen fixed lg:flex lg:flex-col lg:w-20 divide-y-2 divide-gray-600 mx-auto items-center justify-center gap-4">
                     <div className="flex flex-col">
                         {socialLinks.map((link: socialLinksType, index: number) => <IconComponent link={link} key={index}/>)}
