@@ -29,7 +29,7 @@ export const featured: projectsType[] = [
     caseStudy: false
   },
   {
-    name: 'Tweet Bot',
+    name: 'Twitter Bot',
     description:
       "A Simple twitter bot powered by OpenAI's Davinci Model to generate tweets and tweet them. It can be easily deployed to AWS Lambda",
     stack: ['Python', 'Open AI', 'Twitter API'],
