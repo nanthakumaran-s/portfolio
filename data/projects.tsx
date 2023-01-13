@@ -59,3 +59,55 @@ export const featured: projectsType[] = [
     caseStudy: false
   }
 ];
+
+export const previous: projectsType[] = [
+  {
+    name: 'Sorting Visualizer',
+    description: 'A Sorting Visualizer made of React Js which includes 5 sorting algorithms.',
+    stack: ['React Js'],
+    img: '',
+    github: 'https://github.com/nanthakumaran-s/sorting-visualizer',
+    link: 'https://nanthakumaran-s.github.io/sorting-visualizer/',
+    caseStudy: false
+  },
+  {
+    name: 'Path Finding Visualizer',
+    description:
+      'A Path Finding Visualizer made of React Js and have cool algorithms which is used in path finding.',
+    stack: ['React Js'],
+    img: '',
+    github: '',
+    link: 'https://nanthakumaran-s.github.io/pathfinding-visualizer/',
+    caseStudy: false
+  },
+  {
+    name: 'Resize',
+    description:
+      'A Simple Responsive Design Approach for your Flutter Apps. Includes all the necessary things to design a responsive User Interface for your Apps.',
+    stack: ['Flutter'],
+    img: '',
+    github: 'https://github.com/nanthakumaran-s/resize',
+    link: 'https://pub.dev/packages/resize',
+    caseStudy: false
+  },
+  {
+    name: 'PrimoNotes',
+    description:
+      'A simple note taking app made with Kotlin. It is fully featured app which enables adding images, urls to the note and can give colors to each notes.',
+    stack: ['Kotlin', 'SQLite'],
+    img: '',
+    github: 'https://github.com/nanthakumaran-s/PrimoNotes',
+    link: '',
+    caseStudy: false
+  },
+  {
+    name: 'BookFinder',
+    description:
+      'Find used books within your campus. This will connect seniors with juniors and students with staffs and promotes the standard of learning.',
+    stack: ['Flutter', 'Firebase', 'MongoDB'],
+    img: '',
+    github: 'https://github.com/nanthakumaran-s/BookFinder',
+    link: '',
+    caseStudy: false
+  }
+];

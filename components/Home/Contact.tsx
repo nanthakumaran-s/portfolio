@@ -38,36 +38,34 @@ const Contact = () => {
         <h2 className="font-patron font-black text-center text-2xl lg:text-4xl text-skin-base">
           Contact Me
         </h2>
-        <form className="flex flex-col justify-center mt-8" onSubmit={handleSubmit}>
-          <div className="flex flex-col gap-4">
-            <div>
-              <label className="block text-xl lg:text-2xl font-medium font-patron text-gray-700">
-                Name
-              </label>
-              <input
-                type="text"
-                required
-                name="name"
-                id="name"
-                className="font-patron mt-1 px-2 py-2 block w-full rounded-md border border-slate-400 focus:border-indigo-500 focus:ring-indigo-500 text-lg placeholder-slate-400 text-skin-base lg:text-xl"
-                placeholder="your name"
-              />
-            </div>
-            <div>
-              <label className="block text-xl lg:text-2xl font-medium font-patron text-gray-700">
-                Mail
-              </label>
-              <input
-                type="email"
-                required
-                name="mail"
-                id="mail"
-                className="font-patron mt-1 px-3 py-2 block w-full rounded-md border border-slate-400 focus:border-indigo-500 focus:ring-indigo-500 text-lg placeholder-slate-400 text-skin-base lg:text-xl"
-                placeholder="your mail"
-              />
-            </div>
+        <form className="flex flex-col gap-4 justify-center mt-8" onSubmit={handleSubmit}>
+          <div>
+            <label className="block text-xl lg:text-2xl font-medium font-patron text-gray-700">
+              Name
+            </label>
+            <input
+              type="text"
+              required
+              name="name"
+              id="name"
+              className="font-patron mt-1 px-4 py-2 block w-full rounded-md border border-slate-400 focus:border-indigo-500 focus:ring-indigo-500 text-lg placeholder-slate-400 text-skin-base lg:text-xl"
+              placeholder="your name"
+            />
           </div>
-          <div className="mt-4">
+          <div>
+            <label className="block text-xl lg:text-2xl font-medium font-patron text-gray-700">
+              Mail
+            </label>
+            <input
+              type="email"
+              required
+              name="mail"
+              id="mail"
+              className="font-patron mt-1 px-4 py-2 block w-full rounded-md border border-slate-400 focus:border-indigo-500 focus:ring-indigo-500 text-lg placeholder-slate-400 text-skin-base lg:text-xl"
+              placeholder="your mail"
+            />
+          </div>
+          <div>
             <label className="block text-xl lg:text-2xl font-medium font-patron text-gray-700">
               Message
             </label>
@@ -75,7 +73,7 @@ const Contact = () => {
               required
               name="message"
               id="message"
-              className="font-patron mt-1 px-3 py-2 block w-full rounded-md border border-slate-400 focus:border-indigo-500 focus:ring-indigo-500 text-lg placeholder-slate-400 resize-none h-32 text-skin-base lg:text-xl"
+              className="font-patron mt-1 px-4 py-2 block w-full rounded-md border border-slate-400 focus:border-indigo-500 focus:ring-indigo-500 text-lg placeholder-slate-400 resize-none h-32 text-skin-base lg:text-xl"
               placeholder="your message"
             />
           </div>
