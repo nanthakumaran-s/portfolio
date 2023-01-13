@@ -6,7 +6,7 @@ export type navLinksType = {
 export const navLinks = [
   {
     name: 'Projects',
-    link: '#'
+    link: '#projects'
   },
   {
     name: 'Blogs',

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Footer from '../components/Footer';
 import Contact from '../components/Home/Contact';
-import Featured from '../components/Home/Featured';
 import Hero from '../components/Home/Hero';
+import Projects from '../components/Home/Projects';
 import Skills from '../components/Home/Skills';
 import Layout from '../components/Layout';
 import MobileNav from '../components/MobileNav';
@@ -17,7 +17,7 @@ export default function Home() {
       {showNav && <MobileNav setShowNav={setShowNav} />}
       <Hero />
       <Skills />
-      <Featured />
+      <Projects />
       <Contact />
       <Footer />
     </Layout>
