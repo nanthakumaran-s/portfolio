@@ -30,7 +30,7 @@ interface Prop {
 
 const MobileNav = ({ setShowNav }: Prop) => {
   return (
-    <div className="relative inset-0 w-screen h-screen z-10 flex flex-col items-center justify-center">
+    <div className="absolute inset-0 w-screen z-10 flex flex-col items-center justify-center">
         <div className='flex flex-col items-center gap-4 font-patron font-medium text-lg'>
             {navLinks.map((link: navLinksType, index: number) => <a href={link.link} key={index} className="hover:text-indigo-600 transition ease-in-out delay-100">{link.name}</a>)}
             <a href="https://github.com/nanthakumaran-s/portfolio" target="blank">
@@ -38,7 +38,7 @@ const MobileNav = ({ setShowNav }: Prop) => {
                     <TbBrandGithub size={20} color="#16002C" className="group-hover:stroke-indigo-600 transition ease-in-out delay-100 stroke-2"/>
                     <p>Source Code</p>
                 </div>
-            </a>
+            </a> 
         </div>
         <div className='flex gap-4 absolute bottom-8 divide-x-2 divide-gray-600'>
             <div className="flex">
